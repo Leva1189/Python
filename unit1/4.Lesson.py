@@ -1,18 +1,18 @@
 import random
 
-# random_number = random.randint(1, 100)
-# user_answer = int(input("Введіть число від 1 до 100: "))
+random_number = random.randint(1, 100)
+user_answer = int(input("Введіть число від 1 до 100: "))
 
-# while True:
-#     if user_answer < random_number:
-#         print("Не вгадав, твоє число менше")
-#         user_answer = int(input("Спробуй ще раз: "))
-#     elif user_answer > random_number:
-#         print("Не вгадав, твоє число більше")
-#         user_answer = int(input("Спробуй ще раз: "))
-#     else:
-#         print("Вітаю! Ти вгадав число.")
-#         break
+while True:
+    if user_answer < random_number:
+        print("Не вгадав, твоє число менше")
+        user_answer = int(input("Спробуй ще раз: "))
+    elif user_answer > random_number:
+        print("Не вгадав, твоє число більше")
+        user_answer = int(input("Спробуй ще раз: "))
+    else:
+        print("Вітаю! Ти вгадав число.")
+        break
 
 
 #==============================================
