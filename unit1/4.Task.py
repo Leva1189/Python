@@ -24,8 +24,8 @@
 # Завдання 3
 # Використовуючи вкладені цикли та функції print(‘*’, end=’’), print(‘ ‘, end=’’) та print() виведіть на екран прямокутний трикутник
 
-# for i in range(1, 8):
-#     for j in range(i):
+# for i in range(8):
+#     for _ in range(1 + i * 2):
 #         print('*', end='')
 #     print()
 
@@ -62,19 +62,19 @@
 # Створіть програму авторизації, в якій користувачеві дається 3 спроби ввести свої облікові дані (логін та пароль).
 # Якщо користувач за меншу кількість спроб ввів вірні дані, програма достроково припиняє своє виконання та виводить на екран повідомлення: «Авторизацію успішно пройдено з «№» спроби».
 
-login = "user"
-password = "pass"
-attempts = 0
+# login = "user"
+# password = "pass"
+# attempts = 0
 
-while attempts < 3:
-    user_login = input("Введіть логін: ")
-    user_password = input("Введіть пароль: ")
-    if user_login == login and user_password == password:
-        print(f"Авторизацію успішно пройдено з {attempts + 1} спроби.") 
-        break
-    else:
-        print("Невірний логін або пароль. Спробуйте ще раз.")
-    attempts += 1
+# while attempts < 3:  
+#     user_login = input("Введіть логін: ")
+#     user_password = input("Введіть пароль: ")
+#     if user_login == login and user_password == password:
+#         print(f"Авторизацію успішно пройдено з {attempts + 1} спроби.") 
+#         break
+#     else:
+#         print("Невірний логін або пароль. Спробуйте ще раз.")
+#     attempts += 1
 
-if attempts == 3:
-    print("Авторизацію не вдалося пройти.")
+# if attempts == 3:
+#     print("Авторизацію не вдалося пройти.")
