@@ -5,26 +5,28 @@
 
 # name = input("Введіть ваше ПІБ: ")
 
-# if name.isalpha() and name.istitle():
-#     print("ПІБ введено коректно.")
+# if name.istitle():
+#     if name.replace(' ', '').isalpha():
+#       print("ПІБ введено коректно.")
 # else:
 #     print("ПІБ введено некоректно.")    
 
 
+
+ 
 # Завдання 2
 # Напишіть програму, в якій користувач вводить із клавіатури діапазон чисел (в діапазоні має бути не менше 5 чисел). 
 # Вивести на екран суму другого, передостаннього, а також середнього арифметичного значення даної послідовності. 
 
-# numbers = input('Введіть діапазон чисел (через кому): ').split(',')
-# if len(numbers) < 5:
-#     print("Введіть діапазон не менше 5 чисел.")
-#  # todo: зробити перевірку на коректність введення
-# else:
-#     second = numbers[1]
-#     penultimate = numbers[-2]
-#     average = sum(numbers) / len(numbers)
-#     print(f"Сума другого числа: {second}, передостаннього числа: {penultimate}, середнього арифметичного: {average}.")
 
+# numbers1 = int(input())
+# numbers2 = int(input())
+
+# if numbers2 - numbers1 >= 5:
+#   numbers = tuple(range(numbers1, numbers2 + 1))
+#   avg = sum(numbers) / len(numbers)
+#   print(numbers[1] + numbers[-2] + avg)
+  
 
 # Завдання 3
 # Напишіть програму, яка на вхід отримує параметри кольору (в діапазоні від 0 до 255 для кожного кольору) 
