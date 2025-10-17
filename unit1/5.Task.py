@@ -62,6 +62,19 @@
 # number_tuple = tuple(sorted(map(int, numbers.split(','))))
 # print("Відсортований кортеж:", number_tuple)
 
+# Варіант 2
+
+# numbers = ()
+
+# while True:
+#     number =  input("Введіть число або '-' для завершення: ")
+#     if number == '-':
+#       print("Введення чисел завершено.")
+#       break
+#     else:
+#       number = int(number)
+#       numbers += (number, )
+# print("Відсортований кортеж:", sorted(numbers))    
 
 # Завдання 6
 # Напишіть програму для аналізу фідбеку від відвідувачів курорту «Морська зірка», 
