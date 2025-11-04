@@ -2,6 +2,15 @@
 # Створіть список та введіть його значення. 
 # Знайдіть найбільший та найменший елемент списку, а також суму та середнє арифметичне його значень. 
 
+
+# варіант 1
+# list_numbers = [10, 11, 9, 8, 1]
+# print("Найбільший елемент:", max(list_numbers))
+# print("Найменший елемент:", min(list_numbers))
+# print("Сума елементів:", sum(list_numbers))
+# print("Середнє арифметичне:", sum(list_numbers) / len(list_numbers))
+
+# варіант 2
 # numbers = []
 # while True:
 #     number =  input("Введіть число або '-' для завершення: ")
@@ -9,6 +18,7 @@
 #       print("Введення чисел завершено.")
 #       break
 #     else:
+    
 #       number = int(number)
 #       numbers += (number, )
 # print("Створений список:", numbers)  
@@ -20,6 +30,34 @@
 # Сформувати список, в якому будуть міститися унікальні значення першого відносно другого списку та навпаки без повторень. 
 # Роздрукувати підсумковий об'єкт на екран в прямій послідовності, зворотній, а також виконати сортування за зростанням та спаданням.
 
+# варіант 1
+# list1 = input("enter values with separated by comma: ")
+# list2 = input("enter values with separated by comma: ")
+
+# list1 = list1.split(',')
+# list2 = list2.split(',')
+
+# for idx, value in enumerate(list1):
+#     list1[idx] = int(value)
+# for idx, value in enumerate(list2):
+#     list2[idx] = int(value)
+
+# list_result = []
+
+# for value in list1:
+#     if value not in list2:
+#         list_result.append(value)
+# for value in list2:
+#     if value not in list1:
+#         list_result.append(value)
+
+# print("Підсумковий список у прямій послідовності:", list_result)
+# print("Підсумковий список у зворотній послідовності:", list_result[::-1])
+# print("Підсумковий список відсортований за зростанням:", sorted(list_result))
+# print("Підсумковий список відсортований за спаданням:", sorted(list_result, reverse=True))
+
+
+# варіант 2
 # num1 = []
 # num2 = []
 # while True:
