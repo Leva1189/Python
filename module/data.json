@@ -1,0 +1,24 @@
+{
+    "1063971330": [
+        {
+            "count": 1000,
+            "coment": "взяв у друга",
+            "status": "plus"
+        },
+        {
+            "count": 500,
+            "coment": "потратив на таксі",
+            "status": "minus"
+        },
+        {
+            "count": 100000,
+            "coment": "зп",
+            "status": "plus"
+        },
+        {
+            "count": 50000,
+            "coment": "потратив на подорож",
+            "status": "minus"
+        }
+    ]
+}
