@@ -7,21 +7,27 @@
 # 2. Приватний (private) - доступний лише всередині класу. "__name"
 # 3. Захищений (protected) - доступний всередині класу та його підкласів. "_name"
 
-class Car:
-    def __init__(self, name:str, max_speed:int):
-      self.__name = name            #приватний атрибут
-      self.max_speed = max_speed  #публічний атрибут
+# class Car:
+#     def __init__(self, name:str, max_speed:int):
+#       self.__name = name            #приватний атрибут
+#       self.max_speed = max_speed  #публічний атрибут
       
-    def set_name(self, new_name:str):
-        if len(new_name) < 2:
-            print("ім'я занадто коротке")
-        else:
-            self.__name = new_name
+#     def set_name(self, new_name:str):
+#         if len(new_name) < 2:
+#             print("ім'я занадто коротке")
+#         else:
+#             self.__name = new_name
             
-    def get_name(self)->str:
-        return self.__name        
+#     def get_name(self)->str:
+#         return self.__name        
 
-car1 = Car("BMW", 240)
-# print(car1.__name)  #хоча атрибут є приватним, ми все одно можемо отримати до нього доступ ззовні (не рекомендується)
-car1.set_name("Audi")  #зміна імені через метод класу
-print(car1.get_name())  #теперь ім'я змінилося через метод класу
+# car1 = Car("BMW", 240)
+# # print(car1.__name)  #хоча атрибут є приватним, ми все одно можемо отримати до нього доступ ззовні (не рекомендується)
+# car1.set_name("Audi")  #зміна імені через метод класу
+# print(car1.get_name())  #теперь ім'я змінилося через метод класу
+
+# Поліморфізм в ООП
+# Це концепція, яка дозволяє обʼєктам різних класів реагувати на однакові методи по-різному.
+# Поліморфізм дозволяє використовувати однаковий інтерфейс для різних типів обʼєкт
+# Це здатність функцій однаково працювати з різними типами даних.
+ 
