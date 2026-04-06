@@ -5,26 +5,27 @@
 # Створіть кілька різних книжок. Визначте для нього методи _repr_ та _str_.
 
 
-# class Book:
-#     def __init__(self, author: str, title: str, year: int, genre: str):
-#         self.author = author
-#         self.title = title
-#         self.year = year
-#         self.genre = genre
+class Book:
+    def __init__(self, author: str, title: str, year: int, genre: str):
+        self.author = author
+        self.title = title
+        self.year = year
+        self.genre = genre
         
-#     def __repr__(self):
-#         return f"Книга({self.title}, Автор: {self.author}, Рік: {self.year}, Жанр:  {self.genre})"
+    def __repr__(self)-> str:
+        return f"Книга({self.title}, Автор: {self.author}, Рік: {self.year}, Жанр:  {self.genre})"
 
-#     def __str__(self):
-#         return f"'{self.title}' - це {self.genre} книга, написана {self.author} у {self.year} році."
+    def __str__(self)-> str:
+        return f"'{self.title}' - це {self.genre} книга, написана {self.author} у {self.year} році."
 
-# book1 = Book("Дж. К. Ролінг", "Гаррі Поттер і філософський камінь", 1997, "фентезі")
-# book2 = Book("Дж. Р. Р. Толкін", "Володар перснів", 1954, "епічне фентезі")
-# book3 = Book("Габріель Гарсіа Маркес", "Сто років самотності", 1967, "магічний реалізм")
+book1 = Book("Дж. К. Ролінг", "Гаррі Поттер і філософський камінь", 1997, "фентезі")
+book2 = Book("Дж. Р. Р. Толкін", "Володар перснів", 1954, "епічне фентезі")
+book3 = Book("Габріель Гарсіа Маркес", "Сто років самотності", 1967, "магічний реалізм")
 
-# print(book1)
-# print(book2)
-# print(book3)
+list_books = [book1, book2, book3]
+
+print(list_books)
+
 # -------------------------------------------------------------------------------
 
 # -------------------------------------------------------------------------------
@@ -115,3 +116,4 @@
 # print("Автомобілі в автосалоні після продажу:")
 # for car in dealership.cars:
 #     print(car)
+
