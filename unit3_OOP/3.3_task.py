@@ -32,4 +32,24 @@
 # print(car1.get_name())        # тепер ім'я змінилося через метод класу
 # print(car1.get_max_speed())   # тепер максимальна швидкість змінилася через метод класу 
 
+# class Car:
+#     def __init__(self, name:str, max_speed:int):
+#         self._name = name
+#         self._max_speed = max_speed
+    
+#     def set_name(self, new_name:str):
+#         if len(new_name) < 2:
+#             print("ім'я занадто коротке")
+#         else:
+#             self._name = new_name
+            
+#     def get_name(self) -> str:
+#         return self._name        
+    
+# car1 = Car("BMW", 240)
 
+# car1.set_name("AUDI")
+
+
+# print(car1.get_name())    
+       
