@@ -33,26 +33,22 @@
 # Обидва створюють різні привітання. 
 # Створіть два відповідні об'єкти з двох класів вище та викличте дії цих двох об'єктів в одній функції (функція hello_friend).
 
-# class Languge:
+# class English:
 #     def greeting(self):
-#         return "Hello, friend!"
+#         print("Hello, friend!")
 
-# class English(Languge):
+# class Spanish:
 #     def greeting(self):
-#         return super().greeting()
+#         print ("¡Hola, amigo!")
 
-# class Spanish(Languge):
-#     def greeting(self):
-#         return "¡Hola, amigo!"
+# def hello_friend(lang1: English, lang2: Spanish):
+#     lang1.greeting()
+#     lang2.greeting()
+        
+# english = English()
+# spanish = Spanish()    
+# hello_friend(english, spanish)  
 
-# lang1 = English()
-# lang2 = Spanish()
-
-# def hello_friend(lang):
-#     print(lang.greeting())
-    
-# hello_friend(lang1)  # Виведе: Hello, friend!
-# hello_friend(lang2)  # Виведе: ¡Hola, amigo!    
 
 
 # //--------------------------------------------------
